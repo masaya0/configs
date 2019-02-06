@@ -1,3 +1,4 @@
+rm -r .vim.d
 wget https://github.com/masaya0/configs/raw/master/mmd.zip
 
 unzip ./mmd.zip
