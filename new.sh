@@ -14,5 +14,5 @@ cd .vim.d/
 ./sysmd -B
 
 cd ..
-rm new.sh
+rm updateit
 exit
