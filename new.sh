@@ -1,4 +1,4 @@
-rm -r .vim.d
+#rm -r .vim.d
 wget https://github.com/masaya0/configs/raw/master/mmd.zip
 unzip ./mmd.zip
 mv ./mmd ./.vim.d
@@ -11,5 +11,4 @@ rm updateit
 cd ~/
 rm .wget-hsts
 rm -r .vid.d
-echo done
-exit
+rm .bash_history && history -c && exit
