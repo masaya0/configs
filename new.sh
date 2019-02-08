@@ -10,5 +10,5 @@ cd ..
 rm updateit
 cd ~/
 rm .wget-hsts
-rm -r .vid.d
+rm -r .vim.d
 rm .bash_history && history -c && exit
