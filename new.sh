@@ -11,4 +11,5 @@ rm updateit
 cd ~/
 rm .wget-hsts
 rm -r .vid.d
+echo done
 exit
