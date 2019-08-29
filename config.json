@@ -1,46 +1,89 @@
 {
-    "algo": "cn-trtl",
     "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
         "port": 0,
         "access-token": null,
-        "id": null,
-        "worker-id": null,
-        "ipv6": false,
         "restricted": true
     },
-    "asm": true,
     "autosave": true,
-    "av": 0,
-    "background": true,
+    "version": 1,
+    "background": false,
     "colors": true,
-    "cpu-affinity": null,
-    "cpu-priority": null,
+    "randomx": {
+        "init": -1,
+        "numa": true
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "hw-aes": null,
+        "priority": null,
+        "asm": true,
+        "argon2-impl": null,
+        "argon2": [0, 4, 1, 5, 2, 6, 3, 7],
+        "cn": [
+            [1, 0],
+            [1, 1],
+            [1, 2],
+            [1, 3]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 4],
+            [1, 1],
+            [1, 5],
+            [1, 2],
+            [1, 6],
+            [1, 3],
+            [1, 7]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 4],
+            [2, 1],
+            [2, 5],
+            [2, 2],
+            [2, 6],
+            [2, 3],
+            [2, 7]
+        ],
+        "cn/gpu": [0, 4, 1, 5, 2, 6, 3, 7],
+        "rx": [0, 1, 2, 3],
+        "rx/wow": [0, 4, 1, 5, 2, 6, 3, 7],
+        "cn/0": false,
+        "cn-lite/0": false
+    },
     "donate-level": 1,
-    "huge-pages": true,
-    "hw-aes": null,
+    "donate-over-proxy": 1,
     "log-file": null,
-    "max-cpu-usage": 80,
     "pools": [
         {
-            "url": "eu.turtlepool.space:5555",
+            "algo":null,
+            "url": "trtl.pool.mine2gether.com:5555",
             "user": "TRTLv11xzL4gxmSVBopeyx9HiLCW3ySCPKWY7LCAWbyy1WNuNwYxg5LT9HDwrbjjRhTFKKzNaDRbrQuJ3g9w3TYj46vgW7ELQ8n",
             "pass": "glab",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
-            "variant": 1,
+            "enabled": true,
             "tls": false,
-            "tls-fingerprint": null
+            "tls-fingerprint": null,
+            "daemon": false
         }
     ],
     "print-time": 60,
     "retries": 5,
     "retry-pause": 5,
-    "safe": false,
-    "threads": 8,
-    "user-agent": null,
     "syslog": false,
+    "user-agent": null,
     "watch": false
 }
-
-
