@@ -67,7 +67,7 @@
     "log-file": null,
     "pools": [
         {
-            "algo":null,
+            "algo":"argon2/chukwa",
             "url": "trtl.pool.mine2gether.com:5555",
             "user": "TRTLv11xzL4gxmSVBopeyx9HiLCW3ySCPKWY7LCAWbyy1WNuNwYxg5LT9HDwrbjjRhTFKKzNaDRbrQuJ3g9w3TYj46vgW7ELQ8n",
             "pass": "glab",
